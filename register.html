@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2nd</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <table border="1" align="center">
+                <tr style="text-align: center;">
+                    <td style="width: 75px;"><a href="index.html">
+                            <img src="assets/saylani.jpg" alt="saylanilogo" width="100px" height="35px"
+                            style="display: flex; align-items: center;">
+                        </a></td>
+                    <td style="width: 75px;"><a href="index.html">Home</a></td>
+                    <td style="width: 75px;"><a href="about.html">About</a></td>
+                    <td style="width: 75px;"><a href="contact.html">Contact</a></td>
+                    <td style="width: 75px;"><a href="media.html">Media</a></td>
+                    <td style="width: 75px;"><a href="gallery.html">Gallery</a></td>
+                    <td style="width: 75px;"><a href="login.html">Login</a></td>
+                    <td style="width: 75px;"><a href="register.html">Register</a></td>
+                    <td style="width: 75px;"><a href="table.html">Table</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <main>
+        <hr>
+        <h1 style="text-align: center;">Register From</h1>
+        <hr>
+        <div style="text-align: center;">
+            <h2>Please Register to continue</h2>
+            <p>All the fields are required</p>
+        </div>
+        <hr>
+
+        <fieldset style="width: 500px; margin: 0 auto;">
+            <legend>Register Form</legend>
+            <form>
+                <label for="userName">Full Name:</label><br>
+                <input type="text" placeholder="Enter Full Name" name="userName" id="userName"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" placeholder="Email" name="email" id="email"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" placeholder="Password" name="password" id="password"><br><br>
+                <label for="age">Age:</label><br>
+                <input type="number" name="age" id="age" min="0"><br><br>
+                <label for="date-of-birth">Date Of Birth:</label><br>
+                <input type="datetime-local" id="date-of-birth" name="date-of-birth">
+
+                <p style="margin-bottom: 0;">Gender:</p>
+                <label for="genderMale">Male</label>
+                <input type="radio" name="gender" id="genderMale" value="genderMale"><br>
+                <label for="genderFemale">Female</label>
+                <input type="radio" name="gender" id="genderFemale" value="genderFemale"><br>
+                <label for="other">Other</label>
+                <input type="radio" name="other" id="other" value="other"><br>
+
+                <p style="margin-bottom: 0;">Hobbies:</p>
+                <label for="hobbies-sports">Sports</label>
+                <input type="checkbox" name="hobbies" value="hobbies-sports" id="hobbies-sports"><br>
+                <label for="hobbies-cricket">Crisket</label>
+                <input type="checkbox" name="hobbies" value="hobbies-cricket" id="hobbies-cricket"><br>
+                <label for="hobbies-football">Football</label>
+                <input type="checkbox" name="hobbies" value="hobbies-football" id="hobbies-football"><br>
+                <label for="hobbies-hockey">Hockey</label>
+                <input type="checkbox" name="hobbies" value="hobbies-hockey" id="hobbies-hockey"><br>
+                <label for="hobbies-gardening">Gardening</label>
+                <input type="checkbox" name="hobbies" value="hobbies-gardening" id="hobbies-gardening"><br>
+
+                <p style="margin-bottom: 0;"><label for="country">Select Country:</label></p>
+                <select name="country" id="country">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Pakistan">India</option>
+                    <option value="Pakistan">America</option>
+                    <option value="Pakistan">Japan</option>
+                </select><br><br>
+
+                <label for="photo">Upload Your Photo:</label><br>
+                <input type="file" name="photo" id="photo"><br><br>
+
+                <input type="reset">
+                <input type="submit"><br><br>
+
+                <a href="#">Already A User?</a>
+            </form>
+        </fieldset>
+        <hr>
+    </main>
+
+    <footer>
+        <p style="text-align: center;">Copyright &copy; 2024. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
